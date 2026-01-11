@@ -23,7 +23,7 @@ A simple, fast, and efficient port scanner written in Python that uses multi-thr
 ### Basic Syntax
 
 ```bash
-python simplescanner.py -p <PORT_RANGE_START-PORT_RANGE_END> <target>
+python scanner.py -p <PORT_RANGE_START-PORT_RANGE_END> <target>
 ```
 
 ### Arguments
@@ -35,14 +35,15 @@ python simplescanner.py -p <PORT_RANGE_START-PORT_RANGE_END> <target>
 
 Scan common ports (1-1024) on localhost:
 ```bash
-python simplescanner.py 127.0.0.1
+python scanner.py 127.0.0.1
 ```
 
 Scan a specific range of ports:
 ```bash
-python port_scanner.py -p 20-100 127.0.0.1
+python scanner.py -p 20-100 127.0.0.1
 ```
 
 ## Legal and Ethical Use
 
 **WARNING**: Only scan networks and systems you own or have explicit permission to test. Unauthorized port scanning may be illegal in your jurisdiction and violate terms of service agreements.
+
